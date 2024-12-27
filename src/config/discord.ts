@@ -1,0 +1,8 @@
+export const DISCORD_CONFIG = {
+  CLIP_WEBHOOK_URL: 'https://discord.com/api/webhooks/1321569236019052634/xq1Nn1WdtQ1G6Mxf_01lNzfCnko2tPkEJOREEuCwPeVPtLKBHE3tTm2M3GdNIkUN25d0',
+  STREAMER_WEBHOOK_URL: 'https://discord.com/api/webhooks/1320811853894389812/qaWiZRQ0Gqp2FkI6C-N38ymrmJ5NveY9M2Jzs5o1-4m_WODXvSt-GnKmIi6AhtZbi7Td',
+  RATE_LIMIT: {
+    MAX_SUBMISSIONS: 2,
+    WINDOW_MINUTES: 2
+  }
+} as const;
